@@ -1,0 +1,17 @@
+/* Adjust height and width as needed for your slideshow */
+.papan-digital .papan-slideshow {
+    position: relative;
+    height: 80vh;
+    /* Adjust to be taller than the center of the screen */
+    width: 60vw;
+    /* Adjust as needed */
+}
+
+.papan-digital .papan-slideshow img {
+    object-fit: contain;
+    /* Ensures the image fits within the container without distortion */
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
